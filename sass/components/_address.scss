@@ -8,7 +8,7 @@
 }
 
 .contacts {
-    @extend .list;
+    @extend %list;
 }
 
 .contacts__item {
@@ -29,7 +29,7 @@
     font-style: normal;
 
     color: $secondary-white-color;
-    @extend .link;
+    @extend %link;
 
     transition: color 250ms $main-timing-function;
 
