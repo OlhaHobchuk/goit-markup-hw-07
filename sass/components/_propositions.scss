@@ -1,8 +1,8 @@
 .proposition {
-    @extend .section;
+    @extend %section;
 
     &__container {
-            @extend .container;
+            @extend %container;
         }
 
     &__title {
@@ -19,7 +19,7 @@
 
 &__list {
     display: flex;
-    @extend .list;
+    @extend %list;
 }
 
 &__image {

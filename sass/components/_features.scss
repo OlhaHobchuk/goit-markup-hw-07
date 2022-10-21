@@ -1,19 +1,19 @@
 .features {
-    @extend .section;
+    @extend %section;
     padding-bottom: 0;
 
 &__container {
-    @extend .container;
+    @extend %container;
 }
 
 &__title
  {
-    @extend .visually-hidden;
+    @extend %visually-hidden;
 }
 
 &__list {
     display: flex;
-    @extend .list;
+    @extend %list;
 }
 
 

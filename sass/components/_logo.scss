@@ -10,7 +10,7 @@
 
     transition: color 250ms $main-timing-function;
 
-    @extend .link;
+    @extend %link;
 
     &__accent {
         color: $accent-color;

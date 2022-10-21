@@ -23,7 +23,7 @@
 &__soc-list {
     display: flex;
     justify-content: center;
-    @extend .list;
+    @extend %list;
 }
 
 &__soc-icon {

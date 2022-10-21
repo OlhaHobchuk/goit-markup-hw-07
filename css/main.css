@@ -1,15 +1,15 @@
-.list, .work-list, .buttons-list, .join__soc-list, .contacts, .clients__list, .team__soc-list, .team__list, .proposition__list, .features__list, .connect-list, .site-nav {
+.work-list, .buttons-list, .join__soc-list, .contacts, .clients__list, .team__soc-list, .team__list, .proposition__list, .features__list, .connect-list, .site-nav {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.section, .content, .clients, .team, .proposition, .features, .hero {
+.content, .clients, .team, .proposition, .features, .hero {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.container, .content__container, .footer__container, .clients__container, .team__container, .proposition__container, .features__container, .header__container {
+.content__container, .footer__container, .clients__container, .team__container, .proposition__container, .features__container, .header__container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -17,7 +17,7 @@
   margin-right: auto;
 }
 
-.link, .work-card, .contacts__link, .team__soc-link, .connect-list__link, .site-nav__link, .logo {
+.work-card, .contacts__link, .team__soc-link, .connect-list__link, .site-nav__link, .logo {
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ body {
   background-color: #FFFFFF;
 }
 
-.visually-hidden, .content__title, .checkbox-field__input, .features__title {
+.content__title, .checkbox-field__input, .features__title {
   overflow: hidden;
   position: absolute;
   white-space: nowrap;

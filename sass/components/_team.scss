@@ -1,11 +1,11 @@
 .team {
-    @extend .section;
+    @extend %section;
     text-align: center;
 
     background-color: $secondary-background-color;
 
 &__container {
-    @extend .container;
+    @extend %container;
 }
 
 &__title {
@@ -21,7 +21,7 @@
 
 &__list {
     display: flex;
-    @extend .list;
+    @extend %list;
 }
 
 &__card {
@@ -60,7 +60,7 @@
 &__soc-list {
     display: flex;
     justify-content: center;
-    @extend .list;
+    @extend %list;
 }
 
 &__soc-icon {
@@ -97,7 +97,7 @@
     height: 44px;
     border-radius: 50%;
     color: $clients-border-color;
-    @extend .link;
+    @extend %link;
 
     transition: color 250ms $main-timing-function, background-color 250ms $main-timing-function;
 

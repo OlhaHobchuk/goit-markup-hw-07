@@ -1,5 +1,5 @@
 .connect-list {
-    @extend .list;
+    @extend %list;
     margin-left: auto;
 
     display: flex;
@@ -27,7 +27,7 @@
 
     color: $primary-text-color;
 
-    @extend .link;
+    @extend %link;
 
     transition: color 250ms $main-timing-function;
 

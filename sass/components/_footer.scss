@@ -7,7 +7,7 @@
     display: flex;
     align-items: baseline;
     
-    @extend .container;
+    @extend %container;
 
 }
 }

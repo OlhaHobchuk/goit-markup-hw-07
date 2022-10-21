@@ -1,5 +1,5 @@
 .work-card {
-    @extend .link;
+    @extend %link;
 
 &__image {
     display: block;

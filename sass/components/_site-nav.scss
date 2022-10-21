@@ -2,7 +2,7 @@
     margin-left: 93px;
 
     display: flex;
-    @extend .list;
+    @extend %list;
 
 }
 
@@ -20,7 +20,7 @@
     color: $secondary-text-color;
 
     transition: color 250ms $main-timing-function;
-    @extend .link;
+    @extend %link;
 
 &:hover,
 &:focus {
